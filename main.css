@@ -1,0 +1,192 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------- Start of my code ------------------ */
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+}
+
+/*navbar {
+    position:absolute;
+    top:5px;
+    right:5px;
+}*/
+
+ul.navbar {
+    display:block;
+    list-style-type:none;
+    float:right;
+    position:relative;
+    top:5px;
+}
+
+.footer, .push {
+    height: 3em;
+}
+
+.footer {
+    width:100%;
+    background-color:#EBEBEB;
+}
+
+ul, .left_footer {
+    display:inline;
+    list-style-type:none;
+    float:left;
+}
+
+ul, .right_footer {
+    display:inline;
+    list-style-type:none;
+    float:right;
+    padding:15px;
+}
+
+
+li {
+    display:inline;
+}
+
+a {
+    margin:10px;
+    font-size:14px;
+    color:#6B6B6B;
+    text-decoration:none;
+    font-family: Helvetica;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+    width:300px;
+    height:100px;
+    margin-top:200px;
+}
+
+img.centered {
+    clear:both;
+}
+
+.centered {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+input {
+    height:25px;
+    margin-top:25px;
+    border: 1px solid #D2D0D6;
+}
+ 
+input.centered {
+    background-image: url(microphone-icon.jpg);
+    background-size: 20px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+input:hover {
+    border: 1px solid #999999;
+}
+
+input.button:hover {
+    box-shadow: 0px 2px 2px #C2C2C2;
+}
+
+input[type="text"] {
+    font-size:16px;
+}
+
+#buttons {
+    width:250px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button {
+    background-color: #EBEBEB;
+    border: 1px solid #C2C2C2;
+    font-size:10px;
+    height:30px;
+    width:100px;
+    margin:10px;
+    font-weight:bold;
+    color:#474747;
+}
+
+#app_grid {
+    height:30px;
+    width:30px;
+    margin-top:5px;
+    margin-bottom:-10px;
+}
+
+.SignIn_button {
+    background-color: #4285f4;
+    color:white;
+    font-size:14px;
+    height:35px;
+    width:80px;
+    margin:0px 0px;
+    font-weight:800;    
+}
